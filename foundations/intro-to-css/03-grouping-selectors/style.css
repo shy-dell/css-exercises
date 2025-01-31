@@ -1,0 +1,15 @@
+.first,
+.second {
+    font-family: helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+/* use a grouping selector because both share the above, then have their own unique styles below */
+
+.first {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.second {
+    background-color: #ffff00;
+}
