@@ -2,12 +2,13 @@ p {
     background-color: #f08080;
     font-family: Verdana, 'Dejavu Sans', sans-serif;
 }
-.cooler {
+.cooler.number4 {
     font-size: 24px;
 }
 
 .number2 {
     color: #0a0acf;
+    font-size: 36px;
 }
 
 .number4{
