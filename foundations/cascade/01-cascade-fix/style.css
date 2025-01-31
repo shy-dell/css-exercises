@@ -2,6 +2,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.para {
+  font-size: 22px;
+  /* moved this up from original location as 'Rule Order' will take the last read version of .para in the below grouping */
+}
+
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
@@ -11,10 +16,7 @@ body {
 .small-para {
   font-size: 14px;
   font-weight: 800;
-}
-
-.para {
-  font-size: 22px;
+  /* this stays put because it's the last instance of small para and will conflict with the first para on font size*/
 }
 
 .confirm {
