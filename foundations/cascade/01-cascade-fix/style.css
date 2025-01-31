@@ -19,13 +19,13 @@ body {
   /* this stays put because it's the last instance of small para and will conflict with the first para on font size*/
 }
 
-.confirm {
+.confirm.button {
   background: green;
   color: white;
   font-weight: bold;
 } 
 
-.button {
+.cancel.button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
