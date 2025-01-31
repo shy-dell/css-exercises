@@ -1,17 +1,19 @@
 p {
     background-color: #f08080;
     font-family: Verdana, 'Dejavu Sans', sans-serif;
+    /* in this case this works, because only p needed to be this color but otherwise should use 'odd' class per the example */
 }
-.cooler.number4 {
+.adjust-font-size{
     font-size: 24px;
 }
-
-.number2 {
+    /* not sure if this is noted in the course, but while html5 supports numbers in class or id names, css selector have rules where a valid name
+        has to start with either a letter, underscore or a hyphen */
+.two {
     color: #0a0acf;
     font-size: 36px;
 }
 
-.number4{
+.four{
     background-color: #90ee90;
     font-weight: bold;
 }
