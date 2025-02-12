@@ -12,6 +12,9 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
 }
 
 .profile-image {
@@ -45,4 +48,25 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
+
+.left-container, .right-container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+
+/* a few mistakes here, but overall not bad */
+
+/* remember to use  Grouping to say "left OR right"*/
+
+/* within the list, set margin and padding to zero to only rely on gaps to separate the items by 16px */
+
+/* within the left and right container, align-items to center, rather than in the header as this will align the items, rather than the child containers */
+
+/* space-between = items are evenly distributed in the line; first item is on the start line, last item on the end line */
