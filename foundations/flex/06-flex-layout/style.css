@@ -19,6 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
@@ -44,6 +45,7 @@ a {
   flex-flow: column;
   align-items: center;
   justify-content: center;
+  gap: 16px;
 }
 
 .header,
