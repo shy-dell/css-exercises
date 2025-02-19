@@ -50,7 +50,11 @@ a {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 8px;
+  padding: 16px;
+}
+
+.footer {
+  background-color: #eeeeee;
 }
 
 .left-links,
