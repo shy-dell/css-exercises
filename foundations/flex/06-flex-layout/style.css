@@ -19,7 +19,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 8px;
+  padding: 8px 16px; 
+  /* per the solution, remember you can make the top/bottom and sides padding different */
 }
 
 input {
@@ -46,6 +47,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 16px;
+  flex: 1;
 }
 
 .header,
