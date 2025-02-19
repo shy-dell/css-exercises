@@ -46,7 +46,7 @@ body {
 
 .container {
   display: flex;
-  flex-flow: row;
+  /* flex-flow: row; this was unnecessary but commenting as a reminder that its a default */
   flex: 1;
 }
 
