@@ -50,10 +50,12 @@ a {
 .footer {
   display: flex;
   justify-content: space-between;
+  padding: 8px;
 }
 
 .left-links,
 .right-links {
   display: flex;
   flex-wrap: wrap;
+  gap: 16px
 }
