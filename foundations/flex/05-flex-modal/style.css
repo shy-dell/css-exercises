@@ -77,10 +77,20 @@ button.cancel {
   display: flex;
   flex-grow: 1;
   justify-content: space-between;
+  margin-bottom: 8px; 
+  /* used gap instead of margin bottom in my solution */
 }
 
-.container {
-  display: flex;
+
+/* alternatively can do the below to flex the container, 
+though there's likely an issue with doing this if you need to add more to the modal so should use the margin-bottoms to separate */
+/*.container {
+   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 8px; 
+}*/
+
+.text {
+  margin-bottom: 16px;
+  /* used gap instead of margin bottom in my solution */
 }
