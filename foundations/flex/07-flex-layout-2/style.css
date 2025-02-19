@@ -59,3 +59,8 @@ a {
   font-size: 24px;
   color: white;
 }
+
+.card-holder {
+  padding: 48px;
+  display: flex;
+}
