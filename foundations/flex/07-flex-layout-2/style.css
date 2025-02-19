@@ -58,6 +58,7 @@ ul {
   flex-direction: column;
   gap: 16px;
 }
+/* could have instead used margin-botton on each li, rather than column and gap */
 
 a {
   text-decoration: none;
